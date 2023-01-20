@@ -1,9 +1,27 @@
-import React from 'react'
-
+import React from "react";
+import portrait from "../images/test.gif";
+import "../styles/About.css";
+import {
+  Animator,
+  ScrollContainer,
+  ScrollPage,
+  batch,
+  FadeUp,
+  FadeIn,
+} from "react-scroll-motion";
 const About = () => {
   return (
-    <div>DA About</div>
-  )
-}
+    <div className="About">
+      <ScrollContainer>
+        <ScrollPage className="AboutDiv">
+          <Animator animation={FadeIn()}>
+            <img src={portrait} className="portrait" alt="hi" />
+          </Animator>
+          <h1>Hello! I'm Hui Lyn!</h1>
+        </ScrollPage>
+      </ScrollContainer>
+    </div>
+  );
+};
 
-export default About
+export default About;

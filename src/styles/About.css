@@ -1,0 +1,14 @@
+.About{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+}
+.portrait {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.AboutDiv {
+    z-index: 2;
+}
