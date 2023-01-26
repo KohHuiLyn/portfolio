@@ -1,13 +1,4 @@
-
-@font-face {
-  font-family: "Poppins-Regular";   /*Can be any text*/
-  src: local("Poppins-Regular"),
-    url("./fonts/Poppins-Regular.ttf") format("truetype");
-}
-
-html {
+body {
+  background-color: rgba(0, 0, 0, 0);
   color: white;
-  background-color: black;
-  font-family: "Poppins-Regular", sans-serif;
-  text-align: center;
 }

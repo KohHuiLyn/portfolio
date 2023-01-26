@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 html {
   background-size: cover ;    
@@ -12,6 +13,7 @@ html {
 }
 
 .navbar {
+  background-color: #000000a4;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -26,6 +28,7 @@ html {
   display: flex;
   justify-content: space-between;
   height: 80px;
+  
 }
 
 .container {
@@ -41,13 +44,17 @@ html {
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight:Medium;
 }
 
+.navbar-logo:hover {
+  color: white
+}
 .navbar-icon {
   margin-right: 0.5rem;
 }
@@ -81,7 +88,10 @@ html {
 }
 
 .activated {
-  color: #f6ffd6;
+  color: #fff;
+  text-shadow:     0 0 50px #fff,
+  0 0 50px #fff,
+  0 0 5px #fff;
 }
 
 .fa-bars {
@@ -92,9 +102,44 @@ html {
   display: none;
 }
 
+.phoneIcon{
+  margin-right: 10px;
+}
+.contactDiv{
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:Medium;
+}
+
+.cards{
+  display: flex;
+  margin: 30px 60px 0px 60px;
+}
+.contactLink{
+  text-decoration: none;
+  color:black
+}
+.contactCard{
+  margin: auto;
+  box-shadow: 5px 10px #ff9696;
+}
+.contactTop{
+  text-align: center;
+}
+
 @media screen and (max-width: 960px) {
+  .cards{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contactCard{
+    margin-top: 50px;
+  }
   nav {
-    background: #000000f3;
+    margin-bottom: 1rem;
+    background-color: black;
+    border-bottom: 1px solid rgb(169, 169, 169);
   }
   .NavbarItems {
     position: relative;
@@ -112,8 +157,6 @@ html {
   }
 
   .nav-menu.active {
-    background: #000000b4;
-
     left: 0;
     opacity: 1;
     /* transition: all 0.6s ease; */
@@ -121,6 +164,7 @@ html {
   }
 
   .nav-links {
+    background-color: rgb(10, 10, 10);
     text-align: center;
     padding: 2rem;
     width: 100%;
@@ -128,9 +172,8 @@ html {
   }
 
   .nav-links:hover {
-    color: #09bef0;
-    transform: scale(1.2);
-    transition: all 0.3s ease;
+    color: #aceeff;
+    /* transition: all 0.3s ease; */
   }
 
   .nav-item:hover {
@@ -158,3 +201,4 @@ html {
     cursor: pointer;
   }
 }
+

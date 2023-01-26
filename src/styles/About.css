@@ -1,4 +1,4 @@
-.About{
+.Home{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight:300;
@@ -9,6 +9,6 @@
     width: 200px;
     height: 200px;
 }
-.AboutDiv {
+.HomeDiv {
     z-index: 2;
 }
