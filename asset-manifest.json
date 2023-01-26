@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cdd15763.css",
-    "main.js": "/portfolio/static/js/main.7463c8da.js",
+    "main.css": "/portfolio/static/css/main.f911894c.css",
+    "main.js": "/portfolio/static/js/main.d7391424.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/stars.jpg": "/portfolio/static/media/stars.c44ed04c57064dd1b4d5.jpg",
+    "static/media/Koh_Hui_Lyn_Resume.pdf": "/portfolio/static/media/Koh_Hui_Lyn_Resume.121a382ce991d4f2e615.pdf",
     "static/media/test.gif": "/portfolio/static/media/test.216abc6c73c58faadec9.gif",
-    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.cdd15763.css.map": "/portfolio/static/css/main.cdd15763.css.map",
-    "main.7463c8da.js.map": "/portfolio/static/js/main.7463c8da.js.map",
+    "main.f911894c.css.map": "/portfolio/static/css/main.f911894c.css.map",
+    "main.d7391424.js.map": "/portfolio/static/js/main.d7391424.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdd15763.css",
-    "static/js/main.7463c8da.js"
+    "static/css/main.f911894c.css",
+    "static/js/main.d7391424.js"
   ]
 }
