@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ecd89f11.css",
-    "main.js": "/portfolio/static/js/main.8973790f.js",
+    "main.js": "/portfolio/static/js/main.9aac50ac.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/stars.jpg": "/portfolio/static/media/stars.c44ed04c57064dd1b4d5.jpg",
     "static/media/Koh_Hui_Lyn_Resume.pdf": "/portfolio/static/media/Koh_Hui_Lyn_Resume.121a382ce991d4f2e615.pdf",
     "static/media/test.gif": "/portfolio/static/media/test.216abc6c73c58faadec9.gif",
     "index.html": "/portfolio/index.html",
     "main.ecd89f11.css.map": "/portfolio/static/css/main.ecd89f11.css.map",
-    "main.8973790f.js.map": "/portfolio/static/js/main.8973790f.js.map",
+    "main.9aac50ac.js.map": "/portfolio/static/js/main.9aac50ac.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecd89f11.css",
-    "static/js/main.8973790f.js"
+    "static/js/main.9aac50ac.js"
   ]
 }
