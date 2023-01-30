@@ -7,17 +7,15 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
         <nav className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Koh Hui Lyn
+            <WiMoonAltWaningGibbous4 className="phoneIcon"/>Koh Hui Lyn
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

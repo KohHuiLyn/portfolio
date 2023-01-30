@@ -1,9 +1,9 @@
-import { CardActions, CardContent, Typography, Button, Card } from '@mui/material'
+import { CardContent, Typography, Card } from '@mui/material'
 import React from 'react'
 
 const ContactCard = (props) => {
   return (
-    <Card className="contactCard" sx={{ maxWidth: 300,boxShadow:'5px 10px #ff9696'}}>
+    <Card className="contactCard" sx={{ maxWidth: 270,boxShadow:'5px 10px rgb(100, 126, 206)'}}>
       <a className="contactLink" target="_blank" rel="noopener noreferrer" href={props.link}>
       <CardContent>
         <Typography className="contactTop"  gutterBottom variant="h5" component="div">

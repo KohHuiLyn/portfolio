@@ -13,7 +13,7 @@ html {
 }
 
 .navbar {
-  background-color: #000000a4;
+  background-color: black;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -105,6 +105,26 @@ html {
 .phoneIcon{
   margin-right: 10px;
 }
+
+@keyframes emailSend {
+  0% {
+    transform: translate(0px, 0px);
+    animation-timing-function:ease-in-out
+}
+
+50% {
+    transform: translate(8px,0px);
+    animation-timing-function:ease-in-out
+}
+
+100% {
+    transform: translate(0px, 0px);
+    animation-timing-function:ease-in-out
+}
+}
+.emailBtn:hover #emailIcon{
+  animation: 'emailSend' 1s infinite;
+}
 .contactDiv{
   margin-top: 50px;
   font-family: 'Poppins', sans-serif;
@@ -113,7 +133,10 @@ html {
 
 .cards{
   display: flex;
-  margin: 30px 60px 0px 60px;
+  column-gap: 10px;
+  margin: 30px auto 0px auto;
+  justify-self: center;
+  max-width: 1400px;
 }
 .contactLink{
   text-decoration: none;
@@ -122,11 +145,14 @@ html {
 .contactCard{
   margin: auto;
   box-shadow: 5px 10px #ff9696;
+  margin-bottom: 50px;
 }
 .contactTop{
   text-align: center;
 }
 
+
+/* Smol screens */
 @media screen and (max-width: 960px) {
   .cards{
     display: block;
@@ -137,6 +163,7 @@ html {
     margin-top: 50px;
   }
   nav {
+    
     margin-bottom: 1rem;
     background-color: black;
     border-bottom: 1px solid rgb(169, 169, 169);
@@ -188,7 +215,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(20%, 30%);
   }
 
   .menu-icon {
