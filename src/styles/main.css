@@ -5,11 +5,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
 html {
   background-size: cover ;    
   background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.227),rgba(15, 15, 15, 0.638)),url('../images/stars.jpg');
+  background-color: black;
 }
 
 .navbar {
@@ -105,7 +110,25 @@ html {
 .phoneIcon{
   margin-right: 10px;
 }
+@keyframes downArrowAnim {
+  0% {
+    transform: translate(0px, 0px);
+    animation-timing-function:ease-in-out
+}
 
+50% {
+    transform: translate(0px,8px);
+    animation-timing-function:ease-in-out
+}
+
+100% {
+    transform: translate(0px, 0px);
+    animation-timing-function:ease-in-out
+}}
+.downArrow{
+  animation: downArrowAnim 1s infinite;
+
+}
 @keyframes emailSend {
   0% {
     transform: translate(0px, 0px);
@@ -123,7 +146,7 @@ html {
 }
 }
 .emailBtn:hover #emailIcon{
-  animation: 'emailSend' 1s infinite;
+  animation: emailSend 1s infinite;
 }
 .contactDiv{
   margin-top: 50px;

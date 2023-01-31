@@ -1,0 +1,28 @@
+.Home{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    height:100%;
+    display: flex;
+}
+.portrait {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.HomeDiv {
+    z-index: 2;
+}
+.scrollSnap{
+    flex-basis: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+.homeElement{
+    scroll-snap-align: start;
+    /* width: 100vw; */
+    height: 100vh;
+    vertical-align: middle;
+}

@@ -8,7 +8,6 @@ import pdf from '../images/Koh_Hui_Lyn_Resume.pdf'
 import { Button, Card, CardContent, Divider, TextField, Typography } from '@mui/material';
 import emailjs from '@emailjs/browser';
 
-
 const Contact = () => {
   const form = useRef();
   const [disabled, setDisabled] = useState(false)
@@ -68,7 +67,7 @@ const Contact = () => {
     </Fade>
   
     {/* Email div */}
-    <Fade bottom delay={2000}>
+    <Fade bottom delay={1500}>
     <Divider className='emailDiv' style={disabled?{pointerEvents:"none", marginTop:10}:{marginTop:10,}}>
       <Card sx={{paddingLeft: 10, paddingRight: 10, whiteSpace: 'normal', width: {lg: '70vw', xl: '50vw', md: '80vw', sm:'100vw'}}}>
         <CardContent style={disabled?{opacity:"0.4",}:{}} sx={{width: '100%', margin:0}}>
