@@ -1,20 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1cfd5fa2.css",
-    "main.js": "/portfolio/static/js/main.1dd7241d.js",
+    "main.js": "/portfolio/static/js/main.7da3aff0.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
+    "static/media/thirdeyeba.gif": "/portfolio/static/media/thirdeyeba.b6823d9e24e79919d709.gif",
+    "static/media/cifar10.gif": "/portfolio/static/media/cifar10.cd20ee17097691e780fc.gif",
     "static/media/thirdeye2.gif": "/portfolio/static/media/thirdeye2.b941f82448d6bf706fc2.gif",
     "static/media/stars.jpg": "/portfolio/static/media/stars.c44ed04c57064dd1b4d5.jpg",
+    "static/media/pos.png": "/portfolio/static/media/pos.14d13cf151c3111e7511.png",
+    "static/media/hi.gif": "/portfolio/static/media/hi.3aae30af5d071aa76740.gif",
+    "static/media/huilyn.jpg": "/portfolio/static/media/huilyn.805abd69ab0bf26f18a5.jpg",
     "static/media/Koh_Hui_Lyn_Resume.pdf": "/portfolio/static/media/Koh_Hui_Lyn_Resume.121a382ce991d4f2e615.pdf",
-    "static/media/test.gif": "/portfolio/static/media/test.216abc6c73c58faadec9.gif",
+    "static/media/lunarlander.gif": "/portfolio/static/media/lunarlander.b05370b7f42132dcb153.gif",
+    "static/media/noct.gif": "/portfolio/static/media/noct.da48118f412948d54d99.gif",
+    "static/media/admin.png": "/portfolio/static/media/admin.777d74eba07cadf2fa27.png",
+    "static/media/cifar10_modecollapse.png": "/portfolio/static/media/cifar10_modecollapse.f63c19cbf18acdda7ea4.png",
     "static/media/baFlowchart.png": "/portfolio/static/media/baFlowchart.465350c3e20793868ffd.png",
     "index.html": "/portfolio/index.html",
     "main.1cfd5fa2.css.map": "/portfolio/static/css/main.1cfd5fa2.css.map",
-    "main.1dd7241d.js.map": "/portfolio/static/js/main.1dd7241d.js.map",
+    "main.7da3aff0.js.map": "/portfolio/static/js/main.7da3aff0.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cfd5fa2.css",
-    "static/js/main.1dd7241d.js"
+    "static/js/main.7da3aff0.js"
   ]
 }
