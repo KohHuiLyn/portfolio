@@ -12,7 +12,7 @@ const HomeTop = () => {
             <h1>Hello! I'm Hui Lyn!</h1>
             </Fade>
             <Fade delay={1500}>
-            <Typography sx={{marginBottom: 3}}>I'm currently a Freshman pursuing Computer Science at Singapore Management University. <br/> I graduated from Singapore Polytechnic with a Diploma in Applied AI and Analytics, and attained a cGPA of 3.8!</Typography>
+            <Typography sx={{marginBottom: 3}}>I'm currently a Freshman pursuing Computer Science at Singapore Management University. <br/> I graduated from Singapore Polytechnic with a Diploma in Applied AI and Analytics, and attained a cGPA of 3.84!</Typography>
             </Fade>
             <Fade delay={2500}>
             <Typography  sx={{marginBottom: 1}}>Scroll for more information</Typography>
