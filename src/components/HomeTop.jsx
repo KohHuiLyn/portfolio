@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material'
 import React from 'react'
 import { BiChevronsDown } from 'react-icons/bi'
-import portrait from "../images/test.gif";
+import portrait from "../images/huilyn.jpg";
 import { Fade } from 'react-reveal'
 
 const HomeTop = () => {
@@ -12,10 +12,10 @@ const HomeTop = () => {
             <h1>Hello! I'm Hui Lyn!</h1>
             </Fade>
             <Fade delay={1500}>
-            <Typography sx={{marginBottom: 3}}>I'm a Third Year Student at Singapore Polytechnic currently <br/>pursuing a Diploma in Applied AI and Analytics!</Typography>
+            <Typography sx={{marginBottom: 3}}>I'm currently a First Year Undergraduate pursuing Computer Science at Singapore Management University. <br/> I graduated from Singapore Polytechnic with a Diploma in Applied AI and Analytics, and attained a cGPA of 3.8!</Typography>
             </Fade>
             <Fade delay={2500}>
-            <Typography  sx={{marginBottom: 1}}>Check out some of my<br/> projects below!</Typography>
+            <Typography  sx={{marginBottom: 1}}>Scroll for more information</Typography>
                 <div className="downArrowDiv">
                 <BiChevronsDown className="downArrow" size={50}/>
 
